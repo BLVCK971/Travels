@@ -5,4 +5,5 @@ namespace Travels.Application.Features.BoardingCards.Queries.GetSortedBoardingTi
 
 public class GetSortedBoardingCardListQuery : IRequest<SortedBoardingCardListVm>
 {
+    public List<BoardingCardListVm>? boardingCardListVms;
 }

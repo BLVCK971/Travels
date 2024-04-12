@@ -16,3 +16,6 @@ For instance the API should be able to take an unordered set of boarding cards, 
 ● You have arrived at your final destination.
  
 The list should be defined in a format that's compatible with the input format.
+
+>[!div class="step-by-step"]
+> [Next](../Expectation/BoardingCardController.md)

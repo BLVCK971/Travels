@@ -2,11 +2,11 @@
 
 public class BoardingCardListVm
 {
-    public string Reference { get; set; } = string.Empty;
-    public string From { get; set; } = string.Empty;
-    public string To { get; set; } = string.Empty;
-    public string TransportType { get; set; } = string.Empty;
-    public string? Seat { get; set; } = string.Empty;
-    public string? Gate { get; set; } = string.Empty;
-    public string? Baggage { get; set; } = string.Empty;
+    public string departure { get; set; } = string.Empty;
+    public string arrival { get; set; } = string.Empty;
+    public string transport { get; set; } = string.Empty;
+    public string? transportNumber { get; set; } = string.Empty;
+    public string? seat { get; set; } = string.Empty;
+    public string? gate { get; set; } = string.Empty;
+    public string? baggage { get; set; } = string.Empty;
 }

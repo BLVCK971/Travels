@@ -1,4 +1,9 @@
-
+---
+title: Supposed output of the trip sorter
+description: Supposed output of BoardingCardController API methods
+author: BLVCK971
+ms.date: 04/11/2024 
+---
 # Trip Sorter
 ## Input data
 ```json
@@ -10,7 +15,8 @@
 ]
 ```
 
-## Expected output 1 : Sorted data
+## Supposed output of the trip sorter
+### Expected output 1 : Sorted data
 ```json
 [
 {"departure": "Madrid", "arrival": "Barcelona", "transport": "Train", "transportNumber": "78A", "seat": "45B" },
@@ -19,8 +25,7 @@
 {"departure": "Stockholm", "arrival": "New York", "transport": "Flight", "transportNumber": "SK22", "seat": "7B", "gate": "22" }
 ]
 ```
-
-## Expected output 2 : Sentences
+### Expected output 2 : Sentences
 ```json
 [
 "Take train 78A from Madrid to Barcelona. Sit in seat 45B.",
@@ -30,3 +35,6 @@
 "You have arrived at your final destination."
 ]
 ```
+
+>[!div class="step-by-step"]
+> [Pre](../Requirements/TechnicalTest.md)

@@ -16,12 +16,12 @@ public class BoardingCardController : ControllerBase
         _mediator = mediator;
     }
 
-    [HttpGet("sortedboardingcards", Name = "GetSortedBoardingCards")]
+    [HttpPost("sortedboardingcards", Name = "GetSortedBoardingCards")]
     [ProducesDefaultResponseType]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    public async Task<ActionResult<SortedBoardingCardListVm>> GetSortedBoardingCards([FromBody] List<BoardingCardListVm> unsortedBoardingCards)
+    public async Task<ActionResult<SortedBoardingCardListVm>> GetSortedBoardingCards(List<BoardingCardListVm> unsortedBoardingCards)
     {
-        var dtos = await _mediator.Send(unsortedBoardingCards);
+        var dtos = await _mediator.Send(new GetSortedBoardingCardListQuery() { boardingCardListVms = unsortedBoardingCards });
         return Ok(dtos);
     }
 }
