@@ -1,4 +1,4 @@
-﻿namespace Travels.Application.Features.BoardingCards.Queries.GetSortedBoardingTicket;
+﻿namespace Travels.Application.Features.BoardingCards.Queries.GetSortedBoardingCards;
 
 public class BoardingCardListVm
 {

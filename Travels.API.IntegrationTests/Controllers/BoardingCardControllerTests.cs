@@ -3,13 +3,10 @@ using DeepEqual.Syntax;
 using System.Net.Mime;
 using System.Text;
 using System.Text.Json;
-using System.Threading;
-using Travel.Application.Profiles;
 using Travels.API.IntegrationTests.Base;
 using Travels.Application.Features.BoardingCards.Queries.GetSortedBoardingCards;
-using Travels.Application.Features.BoardingCards.Queries.GetSortedBoardingTicket;
+using Travels.Application.Profiles;
 using Travels.Domain.Entities;
-using Xunit.Sdk;
 
 namespace Travels.API.IntegrationTests.Controllers;
 

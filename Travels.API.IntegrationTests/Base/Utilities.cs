@@ -1,4 +1,4 @@
-﻿using Travels.Application.Features.BoardingCards.Queries.GetSortedBoardingTicket;
+﻿using Travels.Application.Features.BoardingCards.Queries.GetSortedBoardingCards;
 
 namespace Travels.API.IntegrationTests.Base;
 

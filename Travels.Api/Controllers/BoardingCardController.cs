@@ -1,7 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Travels.Application.Features.BoardingCards.Queries.GetSortedBoardingCards;
-using Travels.Application.Features.BoardingCards.Queries.GetSortedBoardingTicket;
 
 namespace Travels.API.Controllers;
 

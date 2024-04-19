@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using Travels.Application.Features.BoardingCards.Queries.GetSortedBoardingTicket;
+using Travels.Application.Features.BoardingCards.Queries.GetSortedBoardingCards;
 using Travels.Domain.Entities;
 
-namespace Travel.Application.Profiles;
+namespace Travels.Application.Profiles;
 
 public class MappingProfile : Profile
 {

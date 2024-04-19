@@ -29,9 +29,4 @@
     <ProjectReference Include="..\Travels.Application\Travels.Application.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Docs\Expectations\" />
-    <Folder Include="Docs\Requirements\" />
-  </ItemGroup>
-
 </Project>
