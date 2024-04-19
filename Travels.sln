@@ -20,7 +20,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travels.API", "Travels.Api\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travels.Domain", "Travels.Entities\Travels.Domain.csproj", "{B6C25641-25CC-4BAA-863D-799054A4C45E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travels.API.IntegrationTests", "Travels.API.IntegrationTests\Travels.API.IntegrationTests.csproj", "{4DB0ACD5-6D7F-4FA0-83B6-72834C07CF2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travels.API.IntegrationTests", "Travels.API.IntegrationTests\Travels.API.IntegrationTests.csproj", "{4DB0ACD5-6D7F-4FA0-83B6-72834C07CF2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{5BC507F5-227C-4A6F-BB1D-C7A1AA3CEDC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Documentation", "_Documentation\_Documentation.csproj", "{6D5DC61D-F388-47F3-B412-4BF9FA6D45D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +48,10 @@ Global
 		{4DB0ACD5-6D7F-4FA0-83B6-72834C07CF2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DB0ACD5-6D7F-4FA0-83B6-72834C07CF2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DB0ACD5-6D7F-4FA0-83B6-72834C07CF2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D5DC61D-F388-47F3-B412-4BF9FA6D45D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D5DC61D-F388-47F3-B412-4BF9FA6D45D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D5DC61D-F388-47F3-B412-4BF9FA6D45D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D5DC61D-F388-47F3-B412-4BF9FA6D45D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +63,7 @@ Global
 		{7B81AD08-FF43-4D37-B993-5C8B90A233C9} = {745B360C-11D5-479C-90F6-FEFC5FB0DF17}
 		{B6C25641-25CC-4BAA-863D-799054A4C45E} = {F933316F-A585-4AC9-8944-FBDD7F093DA4}
 		{4DB0ACD5-6D7F-4FA0-83B6-72834C07CF2F} = {77E8BE6E-23E1-485F-9BAF-C49478550D43}
+		{6D5DC61D-F388-47F3-B412-4BF9FA6D45D8} = {5BC507F5-227C-4A6F-BB1D-C7A1AA3CEDC3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C6BDFF6-3768-481E-AF3C-6B0ECB39EBAE}

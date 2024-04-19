@@ -36,4 +36,5 @@ ms.date: 04/11/2024
 ]
 ```
 
-> [Previous](../Requirements/TechnicalTest.md)
+>[!div class="step-by-step"]
+> [Pre](../Requirements/TechnicalTest.md)

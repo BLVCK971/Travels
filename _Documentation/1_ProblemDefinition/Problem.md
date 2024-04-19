@@ -17,5 +17,4 @@ For instance the API should be able to take an unordered set of boarding cards, 
  
 The list should be defined in a format that's compatible with the input format.
 
-
 > [Next](../Expectations/BoardingCardController.md)
